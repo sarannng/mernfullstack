@@ -1,8 +1,13 @@
 import React from "react";
+ 
+import UserLists from "../components/UserLists";
 
 function Users(){
+
+    const USERS = [{id: 'u1', name : 'Sarang', image: "url", places:'India'}]
+
     return (
-        <h2> Hi from Users.js</h2>
+            <UserLists items = {USERS}/>
     );
 }
 
